@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.techAltum.runner.TestRunner">
+      <class name="org.javaP.com.MySQLconector">
         <methods>
-          <include name="afterClass"/>
-          <include name="feature"/>
-          <include name="beforeClass"/>
+          <include name="dbCOnnection"/>
         </methods>
-      </class> <!-- org.techAltum.runner.TestRunner -->
+      </class> <!-- org.javaP.com.MySQLconector -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

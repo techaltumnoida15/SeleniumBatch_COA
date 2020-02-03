@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
     <line>
       <![CDATA[Navigating to url = http://www.onetravel.com]]>
@@ -7,20 +7,26 @@
     <line>
       <![CDATA[Navigation is complete on url = http://www.onetravel.com]]>
     </line>
+    <line>
+      <![CDATA[Navigating to url = http://www.onetravel.com]]>
+    </line>
+    <line>
+      <![CDATA[Navigation is complete on url = http://www.onetravel.com]]>
+    </line>
   </reporter-output>
-  <suite name="Cucumber Project" duration-ms="21062" started-at="2020-01-04T06:17:35Z" finished-at="2020-01-04T06:17:57Z">
+  <suite name="Cucumber Project" duration-ms="39862" started-at="2020-02-02T06:53:59Z" finished-at="2020-02-02T06:54:39Z">
     <groups>
       <group name="cucumber">
-        <method signature="TestRunner.feature(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:org.techAltum.runner.TestRunner@23282c25]" name="feature" class="org.techAltum.runner.TestRunner"/>
+        <method signature="TestRunner.feature(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:org.techAltum.runner.TestRunner@5906ebcb]" name="feature" class="org.techAltum.runner.TestRunner"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Maven Cucumber Tests" duration-ms="21062" started-at="2020-01-04T06:17:35Z" finished-at="2020-01-04T06:17:57Z">
+    <test name="Maven Cucumber Tests" duration-ms="39862" started-at="2020-02-02T06:53:59Z" finished-at="2020-02-02T06:54:39Z">
       <class name="org.techAltum.runner.TestRunner">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.techAltum.runner.TestRunner@23282c25]" name="beforeClass" is-config="true" duration-ms="98" started-at="2020-01-04T06:17:35Z" finished-at="2020-01-04T06:17:36Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.techAltum.runner.TestRunner@5906ebcb]" name="beforeClass" is-config="true" duration-ms="107" started-at="2020-02-02T06:53:59Z" finished-at="2020-02-02T06:53:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:org.techAltum.runner.TestRunner@23282c25]" name="feature" duration-ms="20746" started-at="2020-01-04T06:17:36Z" description="Cucumber Project" data-provider="features" finished-at="2020-01-04T06:17:56Z">
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:org.techAltum.runner.TestRunner@5906ebcb]" name="feature" duration-ms="23201" started-at="2020-02-02T06:53:59Z" description="Cucumber Project" data-provider="features" finished-at="2020-02-02T06:54:23Z">
           <params>
             <param index="0">
               <value>
@@ -42,7 +48,29 @@
             </line>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.techAltum.runner.TestRunner@23282c25]" name="afterClass" is-config="true" duration-ms="160" started-at="2020-01-04T06:17:56Z" finished-at="2020-01-04T06:17:57Z">
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:org.techAltum.runner.TestRunner@5906ebcb]" name="feature" duration-ms="16341" started-at="2020-02-02T06:54:23Z" description="Cucumber Project" data-provider="features" finished-at="2020-02-02T06:54:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Fill widget and initiate search - Round Trip"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Navigating to url = http://www.onetravel.com]]>
+            </line>
+            <line>
+              <![CDATA[Navigation is complete on url = http://www.onetravel.com]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.techAltum.runner.TestRunner@5906ebcb]" name="afterClass" is-config="true" duration-ms="145" started-at="2020-02-02T06:54:39Z" finished-at="2020-02-02T06:54:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

@@ -12,14 +12,8 @@ import io.cucumber.java.en.Then;
 public class OneTravelHomeStepDefn {
 	OnetravelHomePage otHome;
 	//BaseClass baseClass;
-	//WebDriver driver;
-	BaseClass baseClass;
-	//ServiceHooks
+	
 	public OneTravelHomeStepDefn(ServiceHooks serviceHooks) {
-		//this.baseClass = baseClass;
-		//baseClass = new BaseClass();
-		//baseClass.initDriver();
-		 //= baseClass.driver;
 		System.out.println("In step defn =  Hi");
 		otHome = new OnetravelHomePage(serviceHooks.baseClass.driver); 
 	}
